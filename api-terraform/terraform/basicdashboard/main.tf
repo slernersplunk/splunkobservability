@@ -1,9 +1,9 @@
 # Creates a dashboard group called Terraform Dashboard Group and a dashboard called Terraform Dashboard with a CPU chart
 # Configure the SignalFx provider
 provider "signalfx" {
-  auth_token = "wZFQDcZ7KVTAlKoqcc35rA"
+  auth_token = "YOURTOKENHERE"
   # If your organization uses a different realm
-  api_url = "https://api.us1.signalfx.com"
+  api_url = "https://api.YOURREALMHERE.signalfx.com"
 }
 
 resource "signalfx_dashboard_group" "tfgroup" {
