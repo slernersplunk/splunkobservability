@@ -4,6 +4,7 @@ The included `log/py` example will generate logs- make sure its put in the `/hom
 
 Add the following monitor stanza to your `/etc/signalfx/agent.yaml`
 
+```
   - type: telegraf/tail
     files:
     - '/home/ubuntu/pblogs/test.log'
@@ -18,3 +19,4 @@ Add the following monitor stanza to your `/etc/signalfx/agent.yaml`
       JSONTimeKey: "eventdatetime"
       JSONTimeFormat: "2006-01-02T15:04:05.9Z"
       metricName: "pbdata"
+```
