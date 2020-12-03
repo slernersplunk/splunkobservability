@@ -1,3 +1,5 @@
+#gets a list of login events
+#change endTime and startTime to unix time of time window you need
 curl \
     --request POST \
     --header "Content-Type: application/json" \
