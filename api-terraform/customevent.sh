@@ -14,4 +14,4 @@ curl \
          "version":"1.0"
       } 
    }]' \
-https://ingest.YOURREALMHERE.signalfx.com/v2/event
+https://ingest.u1.signalfx.com/v2/event
